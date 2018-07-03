@@ -1,5 +1,5 @@
 FROM ubuntu:trusty
-LABEL maintainer="Alex Koepke <akoepke@usdigitalpartners.com>"
+LABEL maintainer="Alex Koepke <akoepke@usdigitalpartners.com>" application=todobackend
 
 # Prevent dpkg errors
 ENV TERM=xterm-256color
